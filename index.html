@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="./css/responsive.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="./css/darkmode.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="./css/button.css" media="screen" />
-
-        <title>Campus Portfolio</title>
-    </head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/darkmode.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/button.css" media="screen" />
+    
+    <title>Campus Portfolio</title>
+</head>
     <body class="">
-
+        
         <header class="bg1">
             <div class="col" style="justify-content: space-between;height: 100%;">
                 <div>
@@ -24,7 +23,7 @@
                 <div class="col aligner info-data">
                     <img src="img/avatar.png" alt="Avatard"  />
                     <h1>Anthony Legrand</h1>
-                    <h2>Développeur Web</h2>
+                    <h2 id="sentences"><!-- Sentences Generate -->-</h2>
 
                     <div class="wrapper">
                         <input type="checkbox" id="hide-checkbox" checked>
@@ -57,9 +56,9 @@
         </header>
 
         <section class="bg2">
-            <h3>Qui-suis-je ?</h3>
+            <h3 id="AboutMe"><!-- Translate Generate "QUI-SUIS-JE ?" -->-</h3>
             
-            <div class="row resp-col aligner" style="justify-content: space-evenly;">
+            <div class="row aligner" style="justify-content: space-evenly;">
                 
                 <div class="col card">
                     <div>
@@ -79,8 +78,8 @@
                         <span class="dot dot-g"></span>
                     </div>
                     <div class="col bottom">
-                        <h4>Salut !</h4>
-                        <p>👋 Moi c'est Anthony, je suis actuellement à <b>Campus Academy</b>, dans la filière Switch IT 🦄. Dans cette formation je découvre le développement informatique. Mon objectif est de poursuivre mes études jusqu'à mon Bac+5 🎓. Je suis passionné par le <b>JavaScript</b> et toutes ses librairies qui me permettent de faire des sites web <code>ReactJS</code> des applications mobiles <code>React-Native</code> ou encore des logiciels bureau <code>ElectronJS</code>. 💪</p>
+                        <h4 id="Hi"><!-- Translate Generate "Salut !" -->-</h4>
+                        <p id="AboutMe_Text"><!-- Translate Generate "Long desc" -->-</p>
                     </div>
                 </div>
 
@@ -88,9 +87,9 @@
         </section>
 
         <section class="bg3">
-            <h3>Mes projets</h3>
+            <h3 id="MyProjects"><!-- Translate Generate "MES PROJETS" -->-</h3>
             
-            <div class="row aligner resp-col" style="justify-content: space-evenly;padding: 40px 0;">
+            <div class="row aligner" style="justify-content: space-evenly;padding: 40px 0;">
 
                 <div class="col aligner bg2 poster">
                     <img src="/img/poster1.jpg" alt="Poster temporaire1" />
@@ -114,10 +113,10 @@
         </section>
 
         <section class="bg-dark">
-            <h3>Compétences</h3>
+            <h3 id="Skils"><!-- Translate Generate "COMPÉTENCES" -->-</h3>
             
             <div class="skills">
-                <div class="row resp-col" style="padding: 0 15%;">
+                <div class="row" style="padding: 0 15%;">
                     
                     <div class="row" style="justify-content: space-evenly;width: 100%;">
                         <div>
@@ -185,8 +184,8 @@
 
         <section class="bg3">
             <div class="col aligner switcher">
-                <h3 id="SeePortfolio">Voir mon portfolio en noir ?</h3>
-                <p id="SeePortfolioSentence">Le portfolio est disponible dans un thème sombre pour diminuer la fatigue des yeux.</p>
+                <h3 id="SeePortfolio"><!-- Translate Generate "VOIR MON PORTFOLIO BLACK ?" -->-</h3>
+                <p id="SeePortfolioSentence"><!-- Translate Generate "Long Text ..." --></p>
 
                 <div class="btn-clone">
                     <!-- Cloned by js -->
@@ -212,7 +211,11 @@
             </div>
         </footer>
 
-
+        <script src="lang/fr.js"></script>
+        <script src="lang/en.js"></script>
+    
+        <script src="js/utils.js"></script>
+        <script src="js/translate.js"></script>
         <script src="js/theme.js"></script>
     </body>
 </html>
