@@ -22,6 +22,16 @@
 body{
     margin: 0;
 }
+section{
+    padding: 5em 0
+}
+h3{
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font: 18px/24px "opensans-bold",sans-serif;
+    letter-spacing: 3px;
+}
 
 /* GLOBAL */
 .aligner {
@@ -66,4 +76,59 @@ header{
     width: 60px;
     border-radius: 10px;
     margin: 15px;
+}
+
+/* ABOUT ME */
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.dot-r{background-color: var(--red);}
+.dot-y{background-color: var(--yellow);}
+.dot-g{background-color: var(--green);}
+
+.card{
+    padding: 20px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+    animation: all .8s;
+}
+.card img{
+    height: 250px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.card .icons img{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+.card:hover {
+    animation: rotation .75s;
+    cursor: pointer;
+}
+
+
+
+.window{
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    max-width: 45%;
+}
+.window .top{
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+}
+.window .bottom{
+    padding: 20px;
+    font-family: var(--font-family-Trebuchet);
+    text-align: justify!important;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.window h4{
+    font-size: 19px;
 }
