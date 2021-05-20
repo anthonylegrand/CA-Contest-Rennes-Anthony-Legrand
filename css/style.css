@@ -162,3 +162,24 @@ header{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+/* SKILLS */
+.skills>div>div>div{
+    background-color: var(--dark1-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.skills img {
+    height: 50px;
+    filter: brightness(0) invert(1);
+}
+.skills p{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
