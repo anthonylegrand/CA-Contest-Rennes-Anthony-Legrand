@@ -5,5 +5,11 @@ const EN_LANG = {
     "MyProjects": "My projects",
     "Skils": "Skils",
     "SeePortfolio": "See my portfolio on black ?",
-    "SeePortfolioSentence": "The portfolio is available in a dark theme to reduce eye strain."
+    "SeePortfolioSentence": "The portfolio is available in a dark theme to reduce eye strain.",
+    "SentencesArray": [
+        "Web Developer",
+        "Android Developer",
+        "Campus Academy Student",
+        "Passionate about JavaScript"
+    ]
 }

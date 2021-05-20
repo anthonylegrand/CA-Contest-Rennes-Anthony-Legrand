@@ -15,6 +15,10 @@ function init(){
     setStringText("Skils", json)
     setStringText("SeePortfolio", json)
     setStringText("SeePortfolioSentence", json)
+
+    SentencesArray = json["SentencesArray"]
+
+    setSentencesTimer()
 }
 
 function setStringText(key, json){

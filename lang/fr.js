@@ -5,5 +5,11 @@ const FR_LANG = {
     "MyProjects": "Mes projets",
     "Skils": "Compétences",
     "SeePortfolio": "Voir mon portfolio en noir ?",
-    "SeePortfolioSentence": "Le portfolio est disponible dans un thème sombre pour diminuer la fatigue des yeux."
+    "SeePortfolioSentence": "Le portfolio est disponible dans un thème sombre pour diminuer la fatigue des yeux.",
+    "SentencesArray": [
+        "Développeur Web",
+        "Développeur Android",
+        "Etudiant Campus Academy",
+        "Passionné de JavaScript"
+    ]
 }
