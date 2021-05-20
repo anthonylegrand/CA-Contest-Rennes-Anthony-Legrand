@@ -1,0 +1,35 @@
+body{
+    color: var(--dark);
+}
+body.dark-mode,
+section.dark-mode{
+    color: var(--light);
+}
+
+.bg1, .bg2, .bg3, .bg-dark{
+    transition: background-color .8s;
+}
+
+.bg1{
+    background-color: var(--light1-bg);
+}
+.bg2{
+    background-color: var(--light2-bg);
+}
+.bg3{
+    background-color: var(--light3-bg);
+}
+.dark-mode .bg1{
+    background-color: var(--dark1-bg);
+}
+.dark-mode .bg2{
+    background-color: var(--dark2-bg);
+}
+.dark-mode .bg3{
+    background-color: var(--dark3-bg);
+}
+
+.bg-dark{
+    background-color: var(--dark-bg);
+    color: var(--light);
+}
