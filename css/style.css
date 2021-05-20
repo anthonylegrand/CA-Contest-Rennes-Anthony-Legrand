@@ -183,3 +183,12 @@ header{
     text-align: center;
     margin: 10px 0 5px 0;
 }
+
+/* SWITCHER */
+.switcher h3{
+    margin: 20px 0 5px 0;
+}
+.switcher p{
+    margin: 5px 0 50px 0;
+    text-align: center;
+}
