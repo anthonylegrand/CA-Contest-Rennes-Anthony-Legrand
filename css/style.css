@@ -1,0 +1,24 @@
+:root {
+    --red: #dc3545;
+    --yellow: #ffc107;
+    --green: #28a745;
+
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --light1-bg: #e9d5a1;
+    --light2-bg: #f8f9fa;
+    --light3-bg: #efe1bd;
+    --dark1-bg: #494949;
+    --dark2-bg: #7f7f7f;
+    --dark3-bg: #5b5b5b;
+    --dark-bg: #1f1f1f;
+
+    --font-family-Raleway: "Raleway",sans-serif;
+    --font-family-Franklin: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+    --font-family-Trebuchet: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+}
+
+body{
+    margin: 0;
+}
