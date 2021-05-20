@@ -22,6 +22,8 @@ function switchTheme(){
     }
 }
 
+// Cloner en bas de page le bouton déjà présent dans le Header
+// Référencer btn et copy_btn pour pouvoir être appelé plus facilement
 function init(){
     let copy = wrapper.cloneNode(true);
     let btnclone = body.querySelector('.btn-clone');

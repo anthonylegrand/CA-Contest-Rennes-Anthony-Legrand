@@ -1,3 +1,4 @@
+// Récupération du paramétre "lang" dans l'URL
 let lang = getUrlParam("lang") || "fr"
 
 init()
