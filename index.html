@@ -6,10 +6,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/darkmode.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/button.css" media="screen" />
     
     <title>Campus Portfolio</title>
 </head>
-    <body>
+    <body class="">
         
+        <header class="bg1">
+            <div class="col" style="justify-content: space-between;height: 100%;">
+                <div>
+                    <a href="https://github.com/anthonylegrand" target="_blank" >
+                        <img src="img/git-corner.PNG" alt="Baniére d'accées à mon lien GIT" />
+                    </a>
+                </div>
+                <div class="col aligner info-data">
+                    <img src="img/avatar.png" alt="Avatard"  />
+                    <h1>Anthony Legrand</h1>
+                    <h2>Développeur Web</h2>
+
+                    <div class="wrapper">
+                        <input type="checkbox" id="hide-checkbox" checked>
+                        <label for="hide-checkbox" class="toggle">
+                            <span class="toggle-button">
+                                <span class="crater crater-1"></span>
+                                <span class="crater crater-2"></span>
+                                <span class="crater crater-3"></span>   
+                                <span class="crater crater-4"></span>
+                                <span class="crater crater-5"></span>
+                                <span class="crater crater-6"></span>
+                                <span class="crater crater-7"></span>
+                            </span>
+                          <span class="star star-1"></span>
+                          <span class="star star-2"></span>
+                          <span class="star star-3"></span>
+                          <span class="star star-4"></span>
+                          <span class="star star-5"></span>
+                          <span class="star star-6"></span>
+                          <span class="star star-7"></span>
+                          <span class="star star-8"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="flag row aligner">
+                    <a href="?lang=fr"><img src="img/flag/FR_Flag.jpg" alt="Drapeau Francais" /></a>
+                    <a href="?lang=en"><img src="img/flag/US_Flag.jpg" alt="Drapeau USA" /></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="bg2">
+            <h3>Qui-suis-je ?</h3>
+            
+            <div class="row aligner" style="justify-content: space-evenly;">
+                
+                <div class="col card">
+                    <div>
+                        <img src="img/profil.jpg" alt="Photo de Elon Musk (Photo temporaire)" />
+                    </div>
+                    <div class="row aligner icons">
+                        <img src="img/icons/node.png" alt="NodeJS logo" />
+                        <img src="img/icons/react.png" alt="ReactJS logo" />
+                        <img src="img/icons/python.png" alt="Python logo" />
+                    </div>
+                </div>
+
+                <div class="col window">
+                    <div class="row top">
+                        <span class="dot dot-r"></span>
+                        <span class="dot dot-y"></span>
+                        <span class="dot dot-g"></span>
+                    </div>
+                    <div class="col bottom">
+                        <h4>Salut !</h4>
+                        <p>👋 Moi c'est Anthony, je suis actuellement à <b>Campus Academy</b>, dans la filière Switch IT 🦄. Dans cette formation je découvre le développement informatique. Mon objectif est de poursuivre mes études jusqu'à mon Bac+5 🎓. Je suis passionné par le <b>JavaScript</b> et toutes ses librairies qui me permettent de faire des sites web <code>ReactJS</code> des applications mobiles <code>React-Native</code> ou encore des logiciels bureau <code>ElectronJS</code>. 💪</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg3">
+            <h3>Mes projets</h3>
+            
+            <div class="row aligner" style="justify-content: space-evenly;padding: 40px 0;">
+
+                <div class="col aligner bg2 poster">
+                    <img src="/img/poster1.jpg" alt="Poster temporaire1" />
+                    <label class="bg1">2020</label>
+                    <h4>Solaris</h4>
+                </div>
+
+                <div class="col aligner bg2 poster">
+                    <img src="/img/poster2.jpg" alt="Poster temporaire2" />
+                    <label class="bg1">2020</label>
+                    <h4>Aurora</h4>
+                </div>
+
+                <div class="col aligner bg2 poster">
+                    <img src="/img/poster3.jpg" alt="Poster temporaire3" />
+                    <label class="bg1">2020</label>
+                    <h4>Mars</h4>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-dark">
+            <h3>Compétences</h3>
+            
+            <div class="skills">
+                <div class="row" style="padding: 0 15%;">
+                    
+                    <div class="row" style="justify-content: space-evenly;width: 100%;">
+                        <div>
+                            <img src="/img/icons/html-5.png" alt="html logo" >
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/css-3.png" alt="css logo" >
+                            <p>CSS</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/javascript.png" alt="javascript logo" >
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/node.png" alt="node logo" >
+                            <p>NODEJS</p>
+                        </div>
+                    </div>
+                    <div class="row" style="justify-content: space-evenly;width: 100%;" >
+                        <div>
+                            <img src="/img/icons/react.png" alt="react logo" >
+                            <p>REACT</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/php.png" alt="php logo" >
+                            <p>PHP</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/python.png" alt="python logo" >
+                            <p>PYTHON</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/java.png" alt="java logo" >
+                            <p>JAVA</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-top: 50px;">
+                    
+                    <div class="row" style="justify-content: space-evenly;padding: 0 25%;width: 100%;">
+                        <div>
+                            <img src="/img/icons/mysql.png" alt="mysql logo" >
+                            <p>MYSQL</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/mangodb.png" alt="mangodb logo" >
+                            <p>MANGO DB</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/redis.png" alt="redis logo" >
+                            <p>REDIS</p>
+                        </div>
+                        <div>
+                            <img src="/img/icons/firebase.png" alt="firebase logo" >
+                            <p>FIREBASE</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg3">
+            <div class="col aligner switcher">
+                <h3 id="SeePortfolio">Voir mon portfolio en noir ?</h3>
+                <p id="SeePortfolioSentence">Le portfolio est disponible dans un thème sombre pour diminuer la fatigue des yeux.</p>
+
+                <div class="btn-clone">
+                    <!-- Cloned by js -->
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-dark">
+            <div class="col aligner">
+                <div class="row" style="justify-content: space-evenly;width: 13%;">
+                    <a href="https://github.com/anthonylegrand" target="_blank" >
+                        <img src="img/icons/git.png" alt="git logo" />
+                    </a>
+                    <a href="https://gitlab.com/Anthony.campus" target="_blank" >
+                        <img src="img/icons/gitlab.png" alt="gitlab logo" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/anthony-legrand-164719193/" target="_blank" >
+                        <img src="img/icons/linkedin.png" alt="linkedin logo" />
+                    </a>
+                </div>
+
+                <p>Copyright © Anthony Legrand</p>
+            </div>
+        </footer>
+
+
+        <script src="js/theme.js"></script>
     </body>
 </html>
