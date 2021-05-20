@@ -132,3 +132,33 @@ header{
 .window h4{
     font-size: 19px;
 }
+
+/* PROJETS */
+.poster{
+    padding: 10px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+    transition: all .2s linear;
+}
+.poster:hover {
+    transform: scale(1.01);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 70%);
+    cursor: pointer;
+}
+.poster img{
+    height: 230px;
+    width: 355px;
+}
+.poster label{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 5px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.poster h4{
+    margin: 10px 0;
+    font: 18px/24px "opensans-bold",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
