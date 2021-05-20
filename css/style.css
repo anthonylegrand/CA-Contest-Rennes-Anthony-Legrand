@@ -192,3 +192,11 @@ header{
     margin: 5px 0 50px 0;
     text-align: center;
 }
+
+/* FOOTER */
+footer{
+    padding: 2em;
+}
+footer img{
+    height: 30px;
+}
